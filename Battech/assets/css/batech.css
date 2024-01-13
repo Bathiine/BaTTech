@@ -723,7 +723,7 @@ section.games-cards{
 section.form-container{
     width: 100%;
     height: 150vh;
-    background-image: url(imgs/img1.jpg);
+    background-image: url(/Battech/assets/imgs/img1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -892,7 +892,7 @@ footer{
 }
 
 #input-footer button{
-  background-color:var(--main-color);
+  background-color:var(--fourth-bg-color);
   border: none;
   color: var(--text-color);
   padding: 0px 1.25rem;
@@ -910,7 +910,7 @@ footer{
 #footer-copyright{
   display: flex;
   justify-content: center;
-  background-color: var(--main-color);
+  background-color: var(--fourth-bg-color);
   font-size: 0.9rem;
   padding: 1.5rem;
   font-weight: 100;
