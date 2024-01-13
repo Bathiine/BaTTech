@@ -12,12 +12,12 @@
 }
 
 :root{
-    --bg-color: #0b1545;
-    --second-bg-color: #8932c3;
-    --third-bg-color: #3d274c;
-    --fourth-bg-color: #8c9df3;
+    --bg-color: #8932c3;
+    --second-bg-color: #B732C2;
+    --third-bg-color: #323AC2;
+    --fourth-bg-color: #C2327F;
     --text-color: #fff;
-    --text-color-2: #000;
+    --text-color-2: #000000;
     --main-color:#f4a6fe;
     --card-height: 300px;
     --card-width: calc(var(--card-height) / 1.5);
