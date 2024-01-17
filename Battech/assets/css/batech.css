@@ -10,6 +10,9 @@
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
 }
+body{
+  width: 100%;
+}
 
 :root{
     --bg-color: #8932c3;
@@ -818,7 +821,7 @@ form input[type=submit]{
 
 footer{
   width: 100%;
-  color: var(--text-2-color);
+  color: var(--text-color);
   letter-spacing: 1px;
   margin: 0;
   padding: 0;
@@ -831,7 +834,7 @@ footer{
 
 #footer-content{
   border-top: 1px solid #666;
-  background-color:var(--text-color);
+  background-color:var(--fourth-bg-color);
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   padding: 2.5rem 3rem;
@@ -896,7 +899,7 @@ footer{
 }
 
 #input-footer button{
-  background-color:var(--fourth-bg-color);
+  background-color:var(--third-bg-color);
   border: none;
   color: var(--text-color);
   padding: 0px 1.25rem;
@@ -917,7 +920,8 @@ footer{
   background-color: var(--fourth-bg-color);
   font-size: 0.9rem;
   padding: 1.5rem;
-  font-weight: 100;
+  font-weight: 500;
+  color:var(--text-color);
 }
 
 
