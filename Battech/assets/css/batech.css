@@ -924,12 +924,49 @@ footer{
   color:var(--text-color);
 }
 
+/* COOKIES MENSAGE */
 
+.cookies-msg{
+  width: 80%;
+  background-color: #ebebeb;
+  position: fixed;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 15px;
+  display: none;
+}
 
+.cookies-msg.mostrar{
+  display: block;
+}
 
+.cookies-msg .cookies-txt{
+  display: flexbox;
+  align-items: center;
+  text-align: justify;
+  padding: 20px;
+}
 
+.cookies-msg .cookies-btn{
+  margin-left: 550px;
+  margin-bottom: 5px;
+  
+}
 
+.cookies-msg .cookies-btn button{
+  background-color: var(--third-bg-color);
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 17px;
+  padding: 10px 40px;
+  cursor: pointer;
+  transition: 0.2s;
+}
 
+.cookies-msg .cookies-btn button:hover{
+  transform: scale(0.9);
+}
 
 
 @media(max-width: 1200px){
